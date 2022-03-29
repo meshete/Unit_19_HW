@@ -34,16 +34,177 @@ button {
   font-size: 15px;
   border-radius: 4px;
 }
+
+
+.contentcontainer1 {
+  background-color: #EBEBEB;
+  margin: auto;
+  padding: 30px auto;
+  height: auto;
+  width: 1000px;
+}
+
+.maincontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenttitle1 {
+  width: 100%;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  display: block;    
+}
+
+.section1 {
+  flex-basis: 100%;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px black;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.section2 {
+  flex-basis: 100%;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px black;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.section3 {
+  flex-basis: 100%;
+  padding: 10px;
+  background-color: #FFFFFF;
+  border: 1px black;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+.contentcontainer2 {
+  background-color: #EBEBEB;
+  margin: 30px auto;
+  padding: 30px auto;
+  width: 1000px;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.contenttitle2 {
+width: 100%;
+text-align: center;
+display: block;
+}
+
+ .workcontent {
+   height: auto;
+   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.worksection1 {
+  padding: 10px;
+  background-color: #FFFFFF;
+  text-align: center;
+display: flex;
+  margin: 10px;
+
+}
+
+.work1left {
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+align-content: center;
+padding: 40px;
+}
+
+.work1right {
+  width: 50%;
+  text-align: left;
+
+}
+
+.worksection2 {
+  padding: 10px;
+  background-color: #FFFFFF;
+  text-align: center;
+display: flex;
+  margin: 10px;
+}
+
+.work2left {
+  width: 40%;
+  padding: 10px;
+  align-items: center;
+  padding: 40px;
+}
+
+.work2right {
+  width: 50%;
+  text-align: left;
+}
+
+
+.worksection3 {
+  padding: 10px;
+  background-color: #FFFFFF;
+  text-align: center;
+display: flex;
+  margin: 10px;
+}
+
+.work3left {
+  width: 40%;
+  padding: 10px;
+  align-items: center;
+  padding: 40px;
+}
+
+.work3right {
+  width: 50%;
+  text-align: left;
+}
+
+.projectbutton {
+  /* flex-basis: 100%; */
+  width: 100%;
+  text-align: center;
+  /* display: block; */
+  margin: 10px 0 20px 0;
+  }
+
 footer {
   background-color: #373738;
   padding: 5px;
   color: white;
+  height: 75px;
+  width: 100%;
 }
+
 footer ul {
   list-style: none;
-  padding-left: 5px;
+  padding-left: 5px; 
+  float: left;
 }
+
 footer li {
   display: inline-block;
   padding: 0px 7px;
+}
+
+/* For mobile screens 600px or less */
+@media only screen and (max-width: 600px) {
+  body {
+display: flex;
+flex-direction: column;  }
 }
